@@ -6,11 +6,15 @@
 	<title></title>
 </head>
 <body>
-<h1>Write your name, age, and a message!</h1>
+<h1>Write your name and a quote if you're weird like that!</h1>
 <br>
-
-<!-- Create your form here!
- -->
+<form action="/thanks" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="quote">quote:</label><br>
+  <input type="text" id="quote" name="quote"><br><br>
+  <input type="submit" value="Submit">
+</form>
  
 </body>
 </html>
